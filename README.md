@@ -15,3 +15,9 @@ open http://localhost:9000
 
 account admin admin
 ```
+
+## some notes
+
+if you have some wrong for running with docker-compose &&
+
+may be you should change permission for sonar
