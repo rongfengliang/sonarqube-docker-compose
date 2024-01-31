@@ -1,0 +1,73 @@
+repo_name: rongfengliang/sonarqube-docker-compose
+report_id: 5919795e0e933ed340bc50ddcc17447b
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:02:22+00:00'
+requested_by: rongfengliang
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/rongfengliang/sonarqube-docker-compose/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rongfengliang
+  last_updated_on: 2019-05-31 01:10:26.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  version: 9.6.11
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/rongfengliang/sonarqube-docker-compose/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rongfengliang
+  last_updated_on: 2019-05-31 01:10:26.000000000 Z
+- name: 4smart Sonarqube
+  description: SaaS solution to aggregate results from multiple Sonarqube projects
+  website_url: https://sq.4smart.cloud
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/26714/default_d28dea6f292ef1ba74641d42c67b56ccd49185c4.png
+  detection_source_url: https://github.com/rongfengliang/sonarqube-docker-compose/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rongfengliang
+  last_updated_on: 2019-05-31 01:10:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/sonarqube-docker-compose
+  detection_source: Repo Metadata
+- name: SonarQube
+  description: Continuous Code Quality
+  website_url: http://www.sonarqube.org/
+  version: '7.7'
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2638/zIVhxKyn_400x400.png
+  detection_source_url: https://github.com/rongfengliang/sonarqube-docker-compose/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rongfengliang
+  last_updated_on: 2019-05-31 01:10:26.000000000 Z
